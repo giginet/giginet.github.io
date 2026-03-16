@@ -409,6 +409,15 @@ a:hover {
   font-size: 0.95rem;
 }
 
+.book-link {
+  color: var(--color-text);
+  transition: color 0.15s;
+}
+
+.book-link:hover {
+  color: var(--color-accent);
+}
+
 .posts-list {
   display: flex;
   flex-direction: column;
