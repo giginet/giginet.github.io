@@ -396,6 +396,22 @@ a.talk-title:hover {
   color: var(--color-text-muted);
 }
 
+.subsubsection-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  padding-left: 4px;
+}
+
+.posts-list + h4.subsubsection-title {
+  margin-top: 28px;
+}
+
+.posts-list + h3.subsection-title {
+  margin-top: 48px;
+}
+
 .books {
   margin-bottom: 48px;
 }
