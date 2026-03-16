@@ -107,8 +107,8 @@ a:hover {
 }
 
 .hero-avatar {
-  width: 128px;
-  height: 128px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 3px solid var(--color-border);
   margin-bottom: 24px;
