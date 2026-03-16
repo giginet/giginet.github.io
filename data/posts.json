@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Claude CodeのSubagentとcontext: forkは何が違うのか",
+    "link": "https://giginet.hateblo.jp/entry/2026/01/27/202636",
+    "pubDate": "Wed, 28 Jan 2026 10:30:00 +0900"
+  },
+  {
+    "title": "ゲームのプレイ時間を記録する技術",
+    "link": "https://giginet.hateblo.jp/entry/2026/01/10/233455",
+    "pubDate": "Wed, 21 Jan 2026 11:00:00 +0900"
+  },
+  {
+    "title": "開発環境現状確認2026",
+    "link": "https://giginet.hateblo.jp/entry/2026/01/14/101200",
+    "pubDate": "Wed, 14 Jan 2026 11:00:00 +0900"
+  },
+  {
+    "title": "今年遊んだゲームを振り返る2025",
+    "link": "https://giginet.hateblo.jp/entry/2025/12/31/141109",
+    "pubDate": "Wed, 31 Dec 2025 16:48:38 +0900"
+  },
+  {
+    "title": "Embedded Swift + Playdateで組み込みゲーム開発をした in Okinawa.swift",
+    "link": "https://giginet.hateblo.jp/entry/2025/12/05/110000",
+    "pubDate": "Fri, 05 Dec 2025 11:00:00 +0900"
+  },
+  {
+    "title": "ゲームをパッケージで買う",
+    "link": "https://giginet.hateblo.jp/entry/2025/11/29/170000",
+    "pubDate": "Sat, 29 Nov 2025 17:00:00 +0900"
+  },
+  {
+    "title": "Kotlin Fest 2025で『Inside of Swift Export』というトークをした",
+    "link": "https://giginet.hateblo.jp/entry/2025/11/08/224237",
+    "pubDate": "Mon, 10 Nov 2025 11:00:00 +0900"
+  },
+  {
+    "title": "iOSDC 2025で「Swiftビルド弾丸ツアー」というトークをしました #iosdc #iwillblog",
+    "link": "https://giginet.hateblo.jp/entry/2025/09/24/142122",
+    "pubDate": "Wed, 24 Sep 2025 16:43:07 +0900"
+  },
+  {
+    "title": "AI Agentからxcodeprojを操作するxcodeproj-mcp-serverを作った - SwiftSDKでのMCPサーバー開発入門",
+    "link": "https://giginet.hateblo.jp/entry/2025/06/15/161045",
+    "pubDate": "Sun, 15 Jun 2025 14:49:16 +0900"
+  },
+  {
+    "title": "swift-play-experimentalで遊ぼう",
+    "link": "https://giginet.hateblo.jp/entry/2025/04/24/235103",
+    "pubDate": "Fri, 25 Apr 2025 11:00:00 +0900"
+  },
+  {
+    "title": "Swift TestingのTest Scoping Traitsで前後処理を実装する",
+    "link": "https://giginet.hateblo.jp/entry/2025/04/23/232447",
+    "pubDate": "Thu, 24 Apr 2025 11:00:00 +0900"
+  },
+  {
+    "title": "はてなブログのエントリをCursorで執筆する",
+    "link": "https://giginet.hateblo.jp/entry/2025/04/21/043026",
+    "pubDate": "Mon, 21 Apr 2025 13:00:00 +0900"
+  },
+  {
+    "title": "分離式キーボードをErgodox EZからDygma Raise 2に乗り換えた",
+    "link": "https://giginet.hateblo.jp/entry/2025/04/03/110000",
+    "pubDate": "Thu, 03 Apr 2025 11:00:00 +0900"
+  },
+  {
+    "title": "Swift Evolutionについて質問応答するModel Context Protocolサーバーを立てた",
+    "link": "https://giginet.hateblo.jp/entry/2025/03/31/110000",
+    "pubDate": "Mon, 31 Mar 2025 11:00:00 +0900"
+  },
+  {
+    "title": "AIコーディングツールのClineでGitHub Actionを書かせてみた",
+    "link": "https://giginet.hateblo.jp/entry/2025/02/05/110359",
+    "pubDate": "Wed, 05 Feb 2025 11:03:59 +0900"
+  },
+  {
+    "title": "Swift PackageのArtifact Bundleを簡単に生成するGitHub ActionをAIで作った",
+    "link": "https://giginet.hateblo.jp/entry/2025/02/04/120000",
+    "pubDate": "Tue, 04 Feb 2025 12:00:00 +0900"
+  },
+  {
+    "title": "macOSのβアップデートに失敗して吹き飛んだ話",
+    "link": "https://giginet.hateblo.jp/entry/2025/01/13/140501",
+    "pubDate": "Mon, 13 Jan 2025 14:05:01 +0900"
+  },
+  {
+    "title": "iOSでLlama.cppを使ったローカルLLMアプリの構築2024",
+    "link": "https://giginet.hateblo.jp/entry/2024/12/09/110000",
+    "pubDate": "Mon, 09 Dec 2024 11:00:00 +0900"
+  },
+  {
+    "title": "実録・モバイルアプリ領域の技術顧問は何をやっているか",
+    "link": "https://giginet.hateblo.jp/entry/2024/11/18/113000",
+    "pubDate": "Mon, 18 Nov 2024 11:30:00 +0900"
+  },
+  {
+    "title": "『エンジニアチームの生産性の高め方』という書籍で開発者生産性について執筆しました",
+    "link": "https://giginet.hateblo.jp/entry/2024/11/07/110000",
+    "pubDate": "Thu, 07 Nov 2024 11:00:00 +0900"
+  },
+  {
+    "title": "韓国のAppleカンファレンス、KWDC24でSwiftのCLIツール開発について話してきた",
+    "link": "https://giginet.hateblo.jp/entry/2024/10/29/110000",
+    "pubDate": "Tue, 29 Oct 2024 11:00:00 +0900"
+  },
+  {
+    "title": "XCTestCaseをswift-testingに自動変換するswift-testing-revolutionaryを作った",
+    "link": "https://giginet.hateblo.jp/entry/2024/07/08/110000",
+    "pubDate": "Mon, 08 Jul 2024 11:00:00 +0900"
+  },
+  {
+    "title": "WWDC24に参加してきた",
+    "link": "https://giginet.hateblo.jp/entry/2024/06/17/110000",
+    "pubDate": "Mon, 17 Jun 2024 11:00:00 +0900"
+  },
+  {
+    "title": "Swift MacroをSwift PackageなしでXcodeで扱う",
+    "link": "https://giginet.hateblo.jp/entry/2024/01/25/165818",
+    "pubDate": "Thu, 25 Jan 2024 16:58:18 +0900"
+  },
+  {
+    "title": "ポケモンガチ対戦用パーティー管理アプリ『PokeBox』をリリースしました",
+    "link": "https://giginet.hateblo.jp/entry/2022/10/17/110000",
+    "pubDate": "Mon, 17 Oct 2022 11:00:00 +0900"
+  },
+  {
+    "title": "クックパッド株式会社を退職して、LINE株式会社に入社しました",
+    "link": "https://giginet.hateblo.jp/entry/2022/07/25/110000",
+    "pubDate": "Mon, 25 Jul 2022 11:00:00 +0900"
+  },
+  {
+    "title": "try!Swift 2017でApple Watch上でファミコンエミュレータを動かす話をしました",
+    "link": "https://giginet.hateblo.jp/entry/2017/03/11/163503",
+    "pubDate": "Sat, 11 Mar 2017 16:35:03 +0900"
+  },
+  {
+    "title": "try!Swift Tokyo 2017で『👾&⌚️』というトークをします",
+    "link": "https://giginet.hateblo.jp/entry/2017/02/26/215023",
+    "pubDate": "Sun, 26 Feb 2017 21:50:23 +0900"
+  },
+  {
+    "title": "2016年にやったことを振り返ってみた",
+    "link": "https://giginet.hateblo.jp/entry/2016/12/31/213034",
+    "pubDate": "Sat, 31 Dec 2016 21:30:34 +0900"
+  },
+  {
+    "title": "あのゲームっぽく飯画像を撮るアプリ、『Camp Camera』をリリースしました",
+    "link": "https://giginet.hateblo.jp/entry/campcamera",
+    "pubDate": "Thu, 22 Dec 2016 10:39:29 +0900"
+  }
+]

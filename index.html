@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>giginet - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">giginet</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#oss">OSS</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#writing">Writing</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <img src="images/new-giginet-1024.png" alt="giginet avatar" class="hero-avatar">
+      <h1 class="hero-name">giginet</h1>
+      <p class="hero-tagline">Mobile DevOps Engineer / Swift Toolsmith</p>
+      <p class="hero-description">
+        Building developer tools and improving build systems for large-scale iOS apps, with a focus on the Swift ecosystem.
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/giginet" class="btn btn-primary">GitHub</a>
+        <a href="https://giginet.hateblo.jp" class="btn btn-secondary">Blog</a>
+        <a href="https://speakerdeck.com/giginet" class="btn btn-secondary">Slides</a>
+        <a href="https://x.com/giginet" class="btn btn-secondary">X (Twitter)</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-content">
+        <p>
+          Mobile DevOps Engineer at LY Corporation (LINEYahoo), working on build system improvements and developer experience for large-scale iOS applications.
+          Leveraging deep expertise in the Swift compiler and build system, I develop OSS tools and speak at conferences.
+        </p>
+        <div class="about-interests">
+          <span class="tag">Swift Build System</span>
+          <span class="tag">Developer Tooling</span>
+          <span class="tag">Mobile DevOps</span>
+          <span class="tag">AI &times; Dev Tools</span>
+          <span class="tag">Game Development</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="oss" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Open Source Projects</h2>
+      <div class="project-grid">
+
+        <a href="https://github.com/nicklockwood/Scipio" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">Scipio</h3>
+            <span class="project-stars">&#9733; 544</span>
+          </div>
+          <p class="project-desc">A build tool that generates pre-built XCFrameworks from Swift Packages. Dramatically reduces build times for large-scale apps.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">Build Tool</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/giginet/Crossroad" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">Crossroad</h3>
+            <span class="project-stars">&#9733; 426</span>
+          </div>
+          <p class="project-desc">A type-safe Custom URL Scheme routing library for iOS apps.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">iOS</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/giginet/xcprofiler" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">xcprofiler</h3>
+            <span class="project-stars">&#9733; 342</span>
+          </div>
+          <p class="project-desc">CLI tool for profiling Swift compilation times. Helps identify build bottlenecks.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Ruby</span>
+            <span class="tag-sm">Profiling</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/giginet/swift-testing-revolutionary" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">swift-testing-revolutionary</h3>
+            <span class="project-stars">&#9733; 237</span>
+          </div>
+          <p class="project-desc">Automated migration tool that converts XCTestCase to swift-testing.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">Testing</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/giginet/Toybox" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">Toybox</h3>
+            <span class="project-stars">&#9733; 131</span>
+          </div>
+          <p class="project-desc">Manage and create Xcode Playgrounds from the command line.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">CLI</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/nicklockwood/NESEmulator-watchOS" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">NESEmulator-watchOS</h3>
+            <span class="project-stars">&#9733; 127</span>
+          </div>
+          <p class="project-desc">NES (Famicom) emulator running on Apple Watch. Presented at try! Swift Tokyo 2017.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">watchOS</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/nicklockwood/xcodeproj-mcp-server" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">xcodeproj-mcp-server</h3>
+            <span class="project-stars">&#9733; 122</span>
+          </div>
+          <p class="project-desc">MCP Server for manipulating Xcode projects from AI Agents.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">AI</span>
+            <span class="tag-sm">MCP</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/giginet/Peafowl" class="project-card">
+          <div class="project-header">
+            <h3 class="project-name">Peafowl</h3>
+            <span class="project-stars">&#9733; 91</span>
+          </div>
+          <p class="project-desc">Japanese Mahjong hand evaluation library written in Swift.</p>
+          <div class="project-tags">
+            <span class="tag-sm">Swift</span>
+            <span class="tag-sm">Game</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="talks" class="section">
+    <div class="container">
+      <h2 class="section-title">Conference Talks</h2>
+      <div class="talks-list">
+
+        <div class="talk-year">
+          <h3>2025</h3>
+          <div class="talk-items">
+            <div class="talk-item">
+              <span class="talk-event">iOSDC Japan 2025</span>
+              <span class="talk-title">Swift Build Bullet Tour &mdash; The New Ecosystem Built by Swift Build</span>
+              <div class="talk-links">
+                <a href="https://speakerdeck.com/giginet/swift-build-bullet-tour-ja">Slides</a>
+                <a href="https://www.youtube.com/watch?v=RPe3kxdFpgI">Video</a>
+              </div>
+            </div>
+            <div class="talk-item">
+              <span class="talk-event">Kotlin Fest 2025</span>
+              <span class="talk-title">Inside of Swift Export &mdash; A New Bridge Between Kotlin and Swift</span>
+            </div>
+            <div class="talk-item">
+              <span class="talk-event">Okinawa.swift</span>
+              <span class="talk-title">Embedded Swift + Playdate: Game Development on Embedded Devices</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="talk-year">
+          <h3>2024</h3>
+          <div class="talk-items">
+            <div class="talk-item">
+              <span class="talk-event">iOSDC Japan 2024</span>
+              <span class="talk-title">Achieving Faster App Launch with Mergeable Library</span>
+              <div class="talk-links">
+                <a href="https://www.youtube.com/watch?v=ybVi9k1bFm0">Video</a>
+              </div>
+            </div>
+            <div class="talk-item">
+              <span class="talk-event">KWDC24 (Korea)</span>
+              <span class="talk-title">Creating Intuitive Developer Tool in Swift</span>
+            </div>
+            <div class="talk-item">
+              <span class="talk-event">try! Swift Tokyo 2024</span>
+              <span class="talk-title">Open Source Swift Workshop</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="talk-year">
+          <h3>2023</h3>
+          <div class="talk-items">
+            <div class="talk-item">
+              <span class="talk-event">iOSDC Japan 2023</span>
+              <span class="talk-title">Caching Strategies for Large Dependency Graphs in Swift Packages</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="talk-year">
+          <h3>2022</h3>
+          <div class="talk-items">
+            <div class="talk-item">
+              <span class="talk-event">Mobile DevOps Summit 2022</span>
+              <span class="talk-title">Standardizing Build System Using Modern Swift Packages in LINE</span>
+              <div class="talk-links">
+                <a href="https://speakerdeck.com/giginet/standardizing-build-system-using-modern-swift-packages-in-line">Slides</a>
+              </div>
+            </div>
+            <div class="talk-item">
+              <span class="talk-event">iOSDC Japan 2022</span>
+              <span class="talk-title">iOS 16 Bullet Tour &mdash; Learn Through Pok&eacute;mon</span>
+            </div>
+            <div class="talk-item">
+              <span class="talk-event">iOSDC Japan 2022</span>
+              <span class="talk-title">Introducing Scipio: A New Build Tool</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="talk-year">
+          <h3>2021</h3>
+          <div class="talk-items">
+            <div class="talk-item">
+              <span class="talk-event">iOSDC Japan 2021</span>
+              <span class="talk-title">Multi-Module Architecture in Practice for Large-Scale Apps</span>
+              <div class="talk-links">
+                <a href="https://www.youtube.com/watch?v=LCOU2ZlGKi4">Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="talk-year">
+          <h3>2017</h3>
+          <div class="talk-items">
+            <div class="talk-item">
+              <span class="talk-event">try! Swift Tokyo 2017</span>
+              <span class="talk-title">NES Emulator on Apple Watch</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="writing" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Writing</h2>
+
+      <h3 class="subsection-title">Books</h3>
+      <div class="books">
+        <div class="book-item">
+          <span class="book-year">2024</span>
+          <span class="book-title">Boosting Engineering Team Productivity (Co-authored)</span>
+        </div>
+        <div class="book-item">
+          <span class="book-year">2014</span>
+          <span class="book-title">Smartphone Game Development with cocos2d-x (Solo author)</span>
+        </div>
+      </div>
+
+      <h3 class="subsection-title">Recent Blog Posts</h3>
+      <div id="blog-posts" class="posts-list">
+        <p class="posts-loading">Loading posts...</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <img src="images/hakonet.png" alt="hakonet" class="footer-icon">
+      <div class="footer-links">
+        <a href="https://github.com/giginet">GitHub</a>
+        <a href="https://giginet.hateblo.jp">Blog</a>
+        <a href="https://speakerdeck.com/giginet">SpeakerDeck</a>
+        <a href="https://x.com/giginet">X (Twitter)</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 giginet</p>
+    </div>
+  </footer>
+  <script>
+    (async () => {
+      const container = document.getElementById('blog-posts');
+      try {
+        const res = await fetch('data/posts.json');
+        const posts = await res.json();
+        const maxPosts = 10;
+        container.innerHTML = posts.slice(0, maxPosts).map(post => {
+          const date = new Date(post.pubDate);
+          const yyyy = date.getFullYear();
+          const mm = String(date.getMonth() + 1).padStart(2, '0');
+          return `<a href="${post.link}" class="post-item" target="_blank" rel="noopener">
+            <span class="post-date">${yyyy}-${mm}</span>
+            <span class="post-title">${post.title}</span>
+          </a>`;
+        }).join('');
+      } catch {
+        container.innerHTML = '<p class="posts-loading">Failed to load posts. <a href="https://giginet.hateblo.jp">Visit blog directly</a></p>';
+      }
+    })();
+  </script>
+</body>
+</html>
