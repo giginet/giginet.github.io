@@ -436,7 +436,7 @@ a:hover {
 .talk-item {
   display: grid;
   grid-template-columns: 200px 1fr;
-  gap: 8px 16px;
+  gap: 0 16px;
   align-items: baseline;
 }
 
@@ -460,13 +460,8 @@ a.talk-title:hover {
   color: var(--color-accent);
 }
 
-.talk-links {
+.talk-item a[href*="youtube"] {
   grid-column: 2;
-  display: flex;
-  gap: 12px;
-}
-
-.talk-links a {
   font-size: 0.8rem;
   font-weight: 700;
   color: var(--color-accent);
