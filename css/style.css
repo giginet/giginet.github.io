@@ -559,18 +559,21 @@ a.talk-title:hover {
 }
 
 .media-item {
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 4px 16px;
 }
 
-.media-body {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  min-width: 0;
+.media-item .post-date {
+  grid-row: 1 / 3;
+}
+
+.media-item .post-title {
+  grid-column: 2;
 }
 
 .media-source {
-  display: block;
+  grid-column: 2;
   font-size: 0.75rem;
   color: var(--color-text-muted);
   font-weight: 600;
