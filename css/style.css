@@ -558,6 +558,18 @@ a.talk-title:hover {
   font-size: 0.92rem;
 }
 
+.media-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.media-source {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
 .posts-loading {
   color: var(--color-text-muted);
   font-size: 0.9rem;
