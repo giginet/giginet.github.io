@@ -460,7 +460,7 @@ a.talk-title:hover {
   color: var(--color-accent);
 }
 
-.talk-item a[href*="youtube"] {
+.talk-item a.talk-title ~ a {
   grid-column: 2;
   font-size: 0.8rem;
   font-weight: 700;
@@ -669,7 +669,7 @@ a.talk-title:hover {
     grid-template-columns: 1fr;
   }
 
-  .talk-item a[href*="youtube"] {
+  .talk-item a.talk-title ~ a {
     grid-column: 1;
   }
 
