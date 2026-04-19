@@ -85,6 +85,37 @@ Two subsections: the main grid, and **Maintainer / Contributor**. To add a new r
 1. Add a `<a class="project-card" href="https://github.com/OWNER/REPO">` block with an empty `<span class="project-stars"></span>`. The JS at the bottom of `index.html` injects the star count from `data/stars.json` by matching the href.
 2. Append `"OWNER/REPO"` to the `REPOS` list in `scripts/fetch-stars.py` and run it once locally to update `data/stars.json`. CI refreshes it daily.
 
+### Published Apps (`#apps`)
+
+```html
+<a href="APP_STORE_URL" class="app-card" target="_blank" rel="noopener">
+  <img src="ARTWORK_URL" alt="App Name" class="app-icon">
+  <div class="app-info">
+    <h3 class="app-name">App Name</h3>
+    <p class="app-desc">Short description in Japanese (1–2 sentences).</p>
+  </div>
+</a>
+```
+
+**Auto-fetch app metadata via iTunes Search API**
+
+Developer page: https://apps.apple.com/jp/developer/gigi-net-net/id447763559 (developer ID `447763559`).
+
+List every app by the developer and grab the 512×512 artwork URL:
+
+```sh
+curl -s "https://itunes.apple.com/lookup?id=447763559&entity=software&country=jp&limit=50" \
+  | python3 -c "
+import json, sys
+for r in json.load(sys.stdin)['results']:
+    if r.get('wrapperType') == 'software':
+        print(f\"{r['trackId']} | {r['trackName']} | {r.get('artworkUrl512') or r['artworkUrl100']}\")"
+```
+
+- Use the artwork URL as-is for `<img src=…>` — it's a stable Apple CDN URL.
+- App Store page URL: `https://apps.apple.com/jp/app/SLUG/id{trackId}` (iTunes lookup returns `trackViewUrl` with the canonical URL-encoded slug).
+- Japanese descriptions come from the App Store page; keep them 1–2 sentences.
+
 ### Writing (`#writing`)
 
 **Books:** `book-item` entry with `.book-year` and `.book-title`. Link to publisher page (e.g. `gihyo.jp`).
