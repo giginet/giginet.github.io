@@ -814,7 +814,7 @@
       // Load blog posts
       const container = document.getElementById('blog-posts');
       try {
-        const res = await fetch('data/posts.json');
+        const res = await fetch('data/posts.json', { cache: 'no-store' });
         const posts = await res.json();
         container.innerHTML = posts.slice(0, 10).map(post => {
           const date = new Date(post.pubDate);
@@ -831,7 +831,7 @@
 
       // Load star counts
       try {
-        const res = await fetch('data/stars.json');
+        const res = await fetch('data/stars.json', { cache: 'no-store' });
         const stars = await res.json();
         document.querySelectorAll('.project-card').forEach(card => {
           const href = card.getAttribute('href') || '';
