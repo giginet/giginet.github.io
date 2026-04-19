@@ -843,6 +843,29 @@
         });
       } catch {}
     })();
+
+    // Scroll progress bar + nav active section
+    (() => {
+      const navLinks = [...document.querySelectorAll('.nav-links a')];
+      const sections = navLinks
+        .map(a => document.querySelector(a.getAttribute('href')))
+        .filter(Boolean);
+
+      const update = () => {
+        const scrolled = window.scrollY;
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        document.body.style.setProperty('--scroll', `${(scrolled / max) * 100}%`);
+
+        const y = scrolled + 120;
+        let activeIdx = 0;
+        sections.forEach((s, i) => {
+          if (s.offsetTop <= y) activeIdx = i;
+        });
+        navLinks.forEach((a, i) => a.classList.toggle('active', i === activeIdx));
+      };
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
   </script>
 </body>
 </html>
