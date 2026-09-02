@@ -89,15 +89,16 @@ Two subsections: the main grid, and **Maintainer / Contributor**. To add a new r
 
 ```html
 <a href="APP_STORE_URL" class="app-card" target="_blank" rel="noopener">
+  <span class="app-platform">iOS</span>
   <img src="ARTWORK_URL" alt="App Name" class="app-icon">
   <div class="app-info">
-    <h3 class="app-name">App Name <span class="app-platform">iOS</span></h3>
+    <h3 class="app-name">App Name</h3>
     <p class="app-desc">Short description in Japanese (1–2 sentences).</p>
   </div>
 </a>
 ```
 
-- `app-platform` is a small pill badge inside `app-name` (`iOS`, `macOS`, `iOS / visionOS`). Mac App Store URLs carry `?mt=12`.
+- `app-platform` is a red pill badge absolutely positioned at the card's top-right corner (`iOS` or `macOS`). Put it as the first child of `app-card`, not inside `app-name`. Mac App Store URLs carry `?mt=12`.
 - Keep cards in reverse chronological order of release.
 
 **Auto-fetch app metadata via iTunes Search API**
