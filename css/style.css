@@ -548,6 +548,22 @@ a:hover {
   line-height: 1.5;
 }
 
+.app-platform {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border: 2px solid var(--color-text);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 /* ===== Talks ===== */
 .talk-year {
   border: none;
